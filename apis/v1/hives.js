@@ -1,12 +1,23 @@
 /* eslint-disable class-methods-use-this */
 import db from '../../db/db';
+import { v4 as uuidv4 } from 'uuid';
+import mongoose from '../../db/mongodb';
+
+let hiveSchema = new mongoose.Schema({
+  id: Number,
+  buildType: String,
+  sections: Array,
+  hiveLog: Array
+})
+
+let hiveModel = mongoose.model('Hive', hiveSchema);
 
 class HivesController {
   getAllHives(req, res) {
     return res.status(200).send({
       success: 'true',
       message: 'BeeHives retrieved successfully',
-      hive: db,
+      hives: db,
     });
   }
 
@@ -28,23 +39,19 @@ class HivesController {
   }
 
   createHive(req, res) {
-    if (!req.body.title) {
+    if (!req.body.buildType) {
       return res.status(400).send({
         success: 'false',
-        message: 'title is required',
-      });
-    } else if (!req.body.description) {
-      return res.status(400).send({
-        success: 'false',
-        message: 'description is required',
+        message: 'buildType is required',
       });
     }
-    const hive = {
-      id: db.length + 1,
-      title: req.body.title,
-      description: req.body.description,
-    };
-    db.push(hive);
+    const hive = new hiveModel ({
+      id: uuidv4,
+      buildType: req.body.buildType,
+    });
+    hive.save(function (err, hive) {
+       if (err) return console.error(err);
+    });
     return res.status(201).send({
       success: 'true',
       message: 'BeeHive added successfully',
