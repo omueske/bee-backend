@@ -1,0 +1,30 @@
+{
+  "name": "bee-backend",
+  "version": "1.0.0",
+  "description": "Backend Server for beemanaging Software, providing REST-APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon app.js --exec babel-node --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omueske/bee-backend.git"
+  },
+  "author": "Oliver Müske",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omueske/bee-backend/issues"
+  },
+  "homepage": "https://github.com/omueske/bee-backend#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
