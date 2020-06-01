@@ -1,13 +1,13 @@
 import express from 'express';
 //import db from './db/db';
 import bodyParser from 'body-parser';
-import router from './routes/index.js';
+import hiveRouter from './routes/hives.js';
 
 // Set up the express app
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(router);
+app.use(hiveRouter);
 
 const PORT = 5000;
 

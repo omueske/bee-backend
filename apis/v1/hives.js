@@ -34,7 +34,6 @@ class HivesController {
     let query = hiveModel.find(queryParam);
     query instanceof mongoose.Query;
     const hive = await query.exec();
-    //console.log(hive)
     console.log(req.params)
       if (hive[0].id === req.params.id) {
         return res.status(200).send({
@@ -43,10 +42,12 @@ class HivesController {
           hive,
         });
       }
-    return res.status(404).send({
-      success: 'false',
-      message: 'BeeHive does not exist',
-    });
+      else {
+        return res.status(400).send({
+          success: 'false',
+          message: 'BeeHive not found'
+        })
+      }
   }
 
   createHive(req, res) {
@@ -71,12 +72,8 @@ class HivesController {
   }
 
   async updateHive(req, res) {
-    // let update = {};
-    // update["id"] = req.params.id
-    // let update = req.body.
     let filter = {}
     filter["id"] = req.params.id
-
     let hive = await hiveModel.findOneAndUpdate(filter, req.body, { new: true});
     return res.status(201).send({
       success: 'true',
@@ -85,28 +82,17 @@ class HivesController {
     });
   }
 
-  deleteHive(req, res) {
-    const id = parseInt(req.params.id, 10);
-    let hiveFound;
-    let itemIndex;
-    db.map((hive, index) => {
-      if (hive.id === id) {
-        hiveFound = hive;
-        itemIndex = index;
-      }
-    });
+  async deleteHive(req, res) {
+    let filter = {}
+    filter["id"] = req.params.id
+    let hive = await hiveModel.findOneAndRemove(filter);
+    
 
-    if (!hiveFound) {
-      return res.status(404).send({
-        success: 'false',
-        message: 'hive not found',
-      });
-    }
-    db.splice(itemIndex, 1);
 
     return res.status(200).send({
       success: 'true',
       message: 'Hive deleted successfuly',
+      hive,
     });
   }
 }
