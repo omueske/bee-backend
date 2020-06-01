@@ -1,10 +1,11 @@
 /* eslint-disable class-methods-use-this */
-import db from '../../db/db';
+//import db from '../../db/db';
 import { v4 as uuidv4 } from 'uuid';
 import mongoose from '../../db/mongodb';
 
 let hiveSchema = new mongoose.Schema({
-  id: Number,
+  id: String,
+  ownName: String,
   buildType: String,
   sections: Array,
   hiveLog: Array
@@ -13,25 +14,35 @@ let hiveSchema = new mongoose.Schema({
 let hiveModel = mongoose.model('Hive', hiveSchema);
 
 class HivesController {
-  getAllHives(req, res) {
+  async getAllHives(req, res) {
+    let query = hiveModel.find();
+    query instanceof mongoose.Query;
+    const hives = await query.exec();
+
+    console.log(hives)
     return res.status(200).send({
       success: 'true',
       message: 'BeeHives retrieved successfully',
-      hives: db,
+      hives
     });
   }
 
-  getHive(req, res) {
-    const id = parseInt(req.params.id, 10);
-    db.map((hive) => {
-      if (hive.id === id) {
+  async getHive(req, res) {
+    let queryParam = {};
+    queryParam["id"] = req.params.id
+    //console.log(queryParam)
+    let query = hiveModel.find(queryParam);
+    query instanceof mongoose.Query;
+    const hive = await query.exec();
+    //console.log(hive)
+    console.log(req.params)
+      if (hive[0].id === req.params.id) {
         return res.status(200).send({
           success: 'true',
           message: 'BeeHive retrieved successfully',
           hive,
         });
       }
-    });
     return res.status(404).send({
       success: 'false',
       message: 'BeeHive does not exist',
@@ -46,7 +57,7 @@ class HivesController {
       });
     }
     const hive = new hiveModel ({
-      id: uuidv4,
+      id: uuidv4(),
       buildType: req.body.buildType,
     });
     hive.save(function (err, hive) {
@@ -59,48 +70,18 @@ class HivesController {
     });
   }
 
-  updateHive(req, res) {
-    const id = parseInt(req.params.id, 10);
-    let hiveFound;
-    let itemIndex;
-    db.map((hive, index) => {
-      if (hive.id === id) {
-        hiveFound = hive;
-        itemIndex = index;
-      }
-    });
+  async updateHive(req, res) {
+    // let update = {};
+    // update["id"] = req.params.id
+    // let update = req.body.
+    let filter = {}
+    filter["id"] = req.params.id
 
-    if (!hiveFound) {
-      return res.status(404).send({
-        success: 'false',
-        message: 'BeeHive not found',
-      });
-    }
-
-    if (!req.body.title) {
-      return res.status(400).send({
-        success: 'false',
-        message: 'title is required',
-      });
-    } else if (!req.body.description) {
-      return res.status(400).send({
-        success: 'false',
-        message: 'description is required',
-      });
-    }
-
-    const newHive = {
-      id: hiveFound.id,
-      title: req.body.title || hiveFound.title,
-      description: req.body.description || hiveFound.description,
-    };
-
-    db.splice(itemIndex, 1, newHive);
-
+    let hive = await hiveModel.findOneAndUpdate(filter, req.body, { new: true});
     return res.status(201).send({
       success: 'true',
-      message: 'hive added successfully',
-      newHive,
+      message: 'hive updated successfully',
+      hive,
     });
   }
 
