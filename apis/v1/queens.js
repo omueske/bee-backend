@@ -8,6 +8,7 @@ let queenSchema = new mongoose.Schema({
   number: Number,
   hatchYear: Number,
   pedigree: String,
+  comment: String,
   updatedAt: { type: Date, default: Date.now }
 })
 
@@ -59,7 +60,8 @@ class QueensController {
       id: uuidv4(),
       hatchYear: req.body.hatchYear,
       pedigree: req.body.pedigree,
-      number: req.body.number
+      number: req.body.number,
+      comment: req.body.comment
     });
     queen.save(function (err, queen) {
        if (err) return console.error(err);

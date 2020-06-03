@@ -9,6 +9,8 @@ let hiveSchema = new mongoose.Schema({
   buildType: String,
   sections: Array,
   hiveLog: Array,
+  todos: Array,
+  comment: String,
   updatedAt: { type: Date, default: Date.now }
 })
 
@@ -61,6 +63,8 @@ class HivesController {
     const hive = new hiveModel ({
       id: uuidv4(),
       buildType: req.body.buildType,
+      todos: req.body.todos,
+      comment: req.body.comment
     });
     hive.save(function (err, hive) {
        if (err) return console.error(err);
