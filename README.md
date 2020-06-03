@@ -13,3 +13,8 @@
 
 ### Starting the Server
 npm run start
+
+### Todo
+* Add Errorhandling to API's
+* Add Linking HiveLogs to Hives
+* Building WebFrontend
