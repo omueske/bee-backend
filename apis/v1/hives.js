@@ -8,7 +8,8 @@ let hiveSchema = new mongoose.Schema({
   ownName: String,
   buildType: String,
   sections: Array,
-  hiveLog: Array
+  hiveLog: Array,
+  updatedAt: { type: Date, default: Date.now }
 })
 
 let hiveModel = mongoose.model('Hive', hiveSchema);

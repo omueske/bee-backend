@@ -1,5 +1,8 @@
 let mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true});
+mongoose.connect('mongodb://localhost/test', {useNewUrlParser: true, useUnifiedTopology: true});
+// Make Mongoose use `findOneAndUpdate()`. Note that this option is `true`
+// by default, you need to set it to false.
+mongoose.set('useFindAndModify', false);
 
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
@@ -7,15 +10,15 @@ db.once('open', function() {
   // we're connected!
 });
 
-let hiveSchema = new mongoose.Schema({
-    id: Number,
-    buildType: String,
-    sections: Array,
-    hiveLog: Array
-})
+// let hiveSchema = new mongoose.Schema({
+//     id: Number,
+//     buildType: String,
+//     sections: Array,
+//     hiveLog: Array
+// })
 
-console.log(hiveSchema)
-var htest = mongoose.model('hiveTest', hiveSchema);
+//console.log(hiveSchema)
+//var htest = mongoose.model('hiveTest', hiveSchema);
 
 // let hivetest = new htest({
 //     id: 2,
