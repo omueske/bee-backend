@@ -17,6 +17,8 @@ exports.create = (req, res) => {
     comment: req.body.comment,
   });
 
+  console.log(beeHive)
+
   // Save new BeeHive to Database
   beeHive
     .save(beeHive)

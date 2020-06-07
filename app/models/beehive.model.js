@@ -1,4 +1,13 @@
 module.exports = mongoose => {
+    const beeHiveLogSchema = mongoose.Schema({
+      logId: String,
+      date: Date,
+      findings: Array,
+      frames: Array,
+      food: Array,
+      meekness: Number,
+      comment: String
+    })
     const BeeHive = mongoose.model(
       "BeeHive",
       mongoose.Schema(
@@ -6,7 +15,7 @@ module.exports = mongoose => {
             name: String,
             buildType: String,
             sections: Array,
-            hiveLog: Array,
+            hiveLog: [ beeHiveLogSchema ],
             todos: Array,
             comment: String,
             updatedAt: { type: Date, default: Date.now }

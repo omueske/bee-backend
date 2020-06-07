@@ -3,22 +3,19 @@ module.exports = app => {
   
     var router = require("express").Router();
   
-    // Create a new Queen
-    router.post("/", beeHiveLogs.create);
+    // Create a new HiveLog
+    router.post("/:hiveId", beeHiveLogs.create);
   
-    // Retrieve all Queens
-    router.get("/", beeHiveLogs.findAll);
+    //Retrieve all HiveLogs from an Hive
+    router.get("/:id", beeHiveLogs.findAll);
   
-    // Retrieve a single Queen with id
-    router.get("/:id", beeHiveLogs.findOne);
+    // Update a HiveLog with id
+    router.put("/:logId", beeHiveLogs.update);
   
-    // Update a Queen with id
-    router.put("/:id", beeHiveLogs.update);
-  
-    // Delete a Queens with id
+    // Delete a HiveLogs with id
     router.delete("/:id", beeHiveLogs.delete);
   
-    // Create a new Queen
+    // Create a new HiveLog
     router.delete("/", beeHiveLogs.deleteAll);
   
     app.use('/api/v1/beeHiveLog', router);
