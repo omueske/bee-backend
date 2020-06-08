@@ -1,4 +1,6 @@
+var expressListRoutes   = require('express-list-routes')
 module.exports = app => {
+    const apiPrefix = '/api/v1/beeHiveLog'
     const beeHiveLogs = require("../controllers/beehivelog.controller.js");
   
     var router = require("express").Router();
@@ -16,4 +18,6 @@ module.exports = app => {
     router.delete("/:id", beeHiveLogs.delete);
   
     app.use('/api/v1/beeHiveLog', router);
+
+     expressListRoutes({ prefix: apiPrefix }, '\nHivelogs API:', router );
   };

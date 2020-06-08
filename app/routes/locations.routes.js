@@ -1,5 +1,7 @@
+var expressListRoutes   = require('express-list-routes')
 module.exports = app => {
     const locations = require("../controllers/location.controller.js");
+    const apiPrefix = '/api/v1/locations'
   
     var router = require("express").Router();
   
@@ -19,4 +21,6 @@ module.exports = app => {
     router.delete("/:id", locations.delete);
   
     app.use('/api/v1/locations', router);
+
+    expressListRoutes({ prefix: apiPrefix }, '\nLocations API:', router );
   };
