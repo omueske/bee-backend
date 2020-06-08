@@ -78,7 +78,7 @@ exports.update = (req, res) => {
         res.status(404).send({
           message: `Cannot update BeeHive with id=${id}. Maybe BeeHive was not found!`,
         });
-      } else res.send({ message: "BeeHive was updated successfully." });
+      } else res.send({ message: "BeeHive was updated successfully.", data });
     })
     .catch((err) => {
       res.status(500).send({

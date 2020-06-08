@@ -23,9 +23,14 @@ require("./app/routes/beehives.routes")(app);
 require("./app/routes/queens.routes")(app);
 require("./app/routes/hivelogs.routes")(app);
 require("./app/routes/yearColor.routes")(app);
+require("./app/routes/locations.routes")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
+
+
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}.`);
+  
+  console.log(`Server is running on port ${PORT}.`)
+  
 });
