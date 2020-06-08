@@ -15,8 +15,5 @@ module.exports = app => {
     // Delete a HiveLogs with id
     router.delete("/:id", beeHiveLogs.delete);
   
-    // Create a new HiveLog
-    router.delete("/", beeHiveLogs.deleteAll);
-  
     app.use('/api/v1/beeHiveLog', router);
   };

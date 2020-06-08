@@ -11,7 +11,7 @@ exports.create = (req, res) => {
     });
   }
 
-  if (!req.body.hiveId) {
+  if (!req.params.hiveId) {
     res.status(400).send({
       //success: 'false',
       message: "hiveId cannot be empty",
@@ -26,7 +26,7 @@ exports.create = (req, res) => {
     meekness: req.body.meekness,
     comment: req.body.comment,
   };
-
+  const id = req.params.hiveId;
   BeeHive.findOneAndUpdate(
     { _id: id },
     { $push: { hiveLog: hiveLog } },
@@ -49,45 +49,81 @@ exports.create = (req, res) => {
 };
 
 exports.findAll = (req, res) => {
-// Find all Hivelogs from
+  // Find all Hivelogs from
   const id = req.params.id;
 
   BeeHive.findById(id)
     .then((data) => {
       if (!data)
         res.status(404).send({ message: "Not found BeeHive with id " + id });
-      else{
-        let hivelog = data.hiveLog
+      else {
+        let hivelog = data.hiveLog;
         res.status(200).send({ message: "success", hivelog });
-      } 
+      }
     })
     .catch((err) => {
       res
         .status(500)
         .send({ message: "Error retrieving BeeHive with id=" + id });
     });
-  }
+};
 
 // Update a BeeHiveLog by the id in the request
 exports.update = (req, res) => {
   if (!req.body) {
     return res.status(400).send({
-      message: "Data to update can not be empty!",
+      message: "Body to update can not be empty!",
     });
   }
 
   const logId = req.params.logId;
+
+  for (let i = 0; i < req.body; i++) {
+    var obj = JSON.parse(req.body)[i];
+  }
+
+  // ---------------------------------------------------------------------
+  // Adding prefix to JSON-Object Keys
+  var rename = function (obj, prefix) {
+    if (typeof obj !== "object" || !obj) {
+      return false; // check the obj argument somehow
+    }
+
+    var keys = Object.keys(obj),
+      keysLen = keys.length,
+      prefix = prefix || "";
+
+    for (var i = 0; i < keysLen; i++) {
+      obj[prefix + keys[i]] = obj[keys[i]];
+      if (typeof obj[keys[i]] === "object") {
+        rename(obj[prefix + keys[i]], prefix);
+      }
+      delete obj[keys[i]];
+    }
+
+    return obj;
+  };
+
+  //---------------------------------------------------------------
   console.log(logId);
+  //req.body = {'date': '2019-12-07', 'meekness': '4' }
+  req.body = rename(req.body, "hiveLog.$.");
+
   console.log(req.body);
-  BeeHive.findOneAndUpdate({ "hiveLog.logId": logId }, req.body, {
-    useFindAndModify: false,
-  })
+  BeeHive.findOneAndUpdate(
+    { "hiveLog.logId": logId },
+    { $set: req.body },
+    {
+      useFindAndModify: false,
+    }
+  )
     .then((data) => {
       if (!data) {
         res.status(404).send({
           message: `Cannot update BeeHiveLog with id=${logId}. Maybe BeeHiveLog was not found!`,
         });
-      } else res.send({ message: "BeeHiveLog was updated successfully." });
+      } else
+        res.send({ message: "BeeHiveLog was updated successfully.", data });
     })
     .catch((err) => {
       res.status(500).send({
@@ -99,8 +135,11 @@ exports.update = (req, res) => {
 // Delete a BeeHiveLog with the specified id in the request
 exports.delete = (req, res) => {
   const id = req.params.id;
-
-  BeeHive.findByIdAndRemove(id)
+  console.log(id);
+  BeeHive.findOneAndUpdate(
+    { "hiveLog.logId": id },
+    { $pull: { hiveLog: { logId: id } } }
+  )
     .then((data) => {
       if (!data) {
         res.status(404).send({
@@ -115,22 +154,6 @@ exports.delete = (req, res) => {
     .catch((err) => {
       res.status(500).send({
         message: "Could not delete BeeHiveLog with id=" + id,
-      });
-    });
-};
-
-// Delete all BeeHiveLogs from the database.
-exports.deleteAll = (req, res) => {
-  BeeHive.deleteMany({})
-    .then((data) => {
-      res.send({
-        message: `${data.deletedCount} BeeHiveLogs were deleted successfully!`,
-      });
-    })
-    .catch((err) => {
-      res.status(500).send({
-        message:
-          err.message || "Some error occurred while removing all BeeHiveLogs.",
       });
     });
 };
