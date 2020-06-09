@@ -19,6 +19,13 @@ module.exports = app => {
   
     // Delete a Location with id
     router.delete("/:id", locations.delete);
+
+    // Link Hive to Location
+    router.link("/:locId/:hiveId", locations.linkBeeHive)
+
+    // Unlink Hive from Location
+    router.unlink("/:hiveId", locations.unLinkBeeHive)
+
   
     app.use('/api/v1/locations', router);
 

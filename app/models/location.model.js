@@ -1,5 +1,11 @@
 module.exports = mongoose => {
-    const Location = mongoose.model(
+  const hiveLinkSchema = mongoose.Schema({
+    href: String,
+    hiveId: String,
+    updatetAt: { type: Date, default: Date.now }
+  })  
+  
+  const Location = mongoose.model(
       "Location",
       mongoose.Schema(
         {
@@ -7,7 +13,7 @@ module.exports = mongoose => {
             adress: String,
             longitude : String,
             latitude : String,
-            hives: Array,
+            hives: [ hiveLinkSchema ],
             comment: String,
             updatedAt: { type: Date, default: Date.now }
         },

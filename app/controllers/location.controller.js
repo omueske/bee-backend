@@ -17,8 +17,6 @@ exports.create = (req, res) => {
     comment: req.body.comment,
   });
 
-  console.log(location);
-
   // Save new Location to Database
   location
     .save(location)
@@ -56,13 +54,11 @@ exports.findOne = (req, res) => {
       if (!data)
         res.status(404).send({ message: "Not Location with id " + id });
       else
-        res
-          .status(200)
-          .send({
-            success: "true",
-            message: "Location found",
-            data,
-          });
+        res.status(200).send({
+          success: "true",
+          message: "Location found",
+          data,
+        });
     })
     .catch((err) => {
       res
@@ -116,4 +112,69 @@ exports.delete = (req, res) => {
         message: "Could not delete BeeHive with id=" + id,
       });
     });
+};
+
+exports.linkBeeHive = (req, res) => {
+  if (!req.params.locId) {
+    res.status(400).send({ message: "locId cannot be empty" });
+  }
+  if (!req.params.hiveId) {
+    res.status(400).send({ message: "hiveId cannot be empty" });
+  }
+
+  const linkElements = {
+    href: "/api/v1/hives/" + req.params.hiveId,
+    hiveId: req.params.hiveId,
+  };
+
+  console.log("HiveId: " + req.params.hiveId);
+  console.log("Location: " + req.params.locId);
+  console.table(linkElements);
+
+  Location.findOneAndUpdate(
+    { _id: req.params.locId },
+    { $push: { hives: linkElements } },
+    { new: true },
+    function (err, update) {
+      if (err) {
+        return res.status(500).json({
+          status: "error",
+          result: "server error",
+        });
+      } else {
+        return res.status(200).json({
+          status: "ok",
+          result: "Hive Linked to Location successfully",
+          linkElements,
+        });
+      }
+    }
+  );
+};
+
+exports.unLinkBeeHive = (req, res) => {
+  if (!req.params.hiveId) {
+    res.status(400).send({ message: "hiveId cannot be empty" });
+  }
+
+  console.log("HiveId: " + req.params.hiveId);
+
+  Location.findOneAndUpdate(
+    { "hives._id": req.params.hiveId },
+    { $pull: { hives: { _id: req.params.hiveId } } },
+    { new: true },
+    function (err, update) {
+      if (err) {
+        return res.status(500).json({
+          status: "error",
+          result: "server error",
+        });
+      } else {
+        return res.status(200).json({
+          status: "ok",
+          result: "Hive unLinked from Location successfully",
+        });
+      }
+    }
+  );
 };
