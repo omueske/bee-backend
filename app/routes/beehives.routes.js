@@ -20,8 +20,8 @@ module.exports = app => {
     // Delete a BeeHive with id
     router.delete("/:id", beehives.delete);
   
-    // Create a new BeeHive
-    router.delete("/", beehives.deleteAll);
+    // Delete all Hives
+    // router.delete("/", beehives.deleteAll);
   
     app.use('/api/v1/hives', router);
 
