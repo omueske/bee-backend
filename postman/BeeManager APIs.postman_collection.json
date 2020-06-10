@@ -355,11 +355,11 @@
 							"urlencoded": [
 								{
 									"key": "date",
-									"value": "02.06.2020",
+									"value": "2020-06-06",
 									"type": "text"
 								},
 								{
-									"key": "finding",
+									"key": "findings",
 									"value": "[{\"eggs\": true,\"larves\":true,\"capped\":true,\"seenQueen\": true}]",
 									"type": "text"
 								},
@@ -382,20 +382,29 @@
 									"key": "comment",
 									"value": "Macht nen guten Eindruck heute",
 									"type": "text"
+								},
+								{
+									"key": "hiveId",
+									"value": "5ee0c227b3ae622280b1eef8",
+									"type": "text"
 								}
-							]
+							],
+							"options": {
+								"urlencoded": {}
+							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/v1/hivelog",
+							"raw": "http://localhost:8080/api/v1/beeHiveLog/5edb9e7e9f3c1138688ee84b",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "8080",
 							"path": [
 								"api",
 								"v1",
-								"hivelog"
+								"beeHiveLog",
+								"5edb9e7e9f3c1138688ee84b"
 							]
 						}
 					},
@@ -403,20 +412,31 @@
 				},
 				{
 					"name": "Get All Hivelogs",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [],
+							"options": {
+								"urlencoded": {}
+							}
+						},
 						"url": {
-							"raw": "http://localhost:5000/api/v1/hivelog",
+							"raw": "http://localhost:8080/api/v1/beeHiveLog/",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "8080",
 							"path": [
 								"api",
 								"v1",
-								"hivelog"
+								"beeHiveLog",
+								""
 							]
 						}
 					},
@@ -424,9 +444,19 @@
 				},
 				{
 					"name": "Get specific Hivelog",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
 					"request": {
 						"method": "GET",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {}
+							}
+						},
 						"url": {
 							"raw": "http://localhost:5000/api/v1/hivelog/8545d938-5e39-4cc4-95c4-3b6f4f169775",
 							"protocol": "http",
@@ -459,23 +489,26 @@
 								},
 								{
 									"key": "meekness",
-									"value": "3",
+									"value": "10",
 									"type": "text"
 								}
-							]
+							],
+							"options": {
+								"urlencoded": {}
+							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/api/v1/hivelog/8545d938-5e39-4cc4-95c4-3b6f4f169775",
+							"raw": "http://localhost:8080/api/v1/beeHiveLog/5ee0c3429818a22aec294128",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "8080",
 							"path": [
 								"api",
 								"v1",
-								"hivelog",
-								"8545d938-5e39-4cc4-95c4-3b6f4f169775"
+								"beeHiveLog",
+								"5ee0c3429818a22aec294128"
 							]
 						}
 					},
@@ -487,17 +520,40 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:5000/api/v1/hivelog/f7e48539-27c3-4f00-986b-4775780ed8ba",
+							"raw": "http://localhost:8080/api/v1/beeHiveLog/5ee0c5689818a22aec29412b",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
-							"port": "5000",
+							"port": "8080",
 							"path": [
 								"api",
 								"v1",
-								"hivelog",
-								"f7e48539-27c3-4f00-986b-4775780ed8ba"
+								"beeHiveLog",
+								"5ee0c5689818a22aec29412b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All from Hive",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/v1/beeHiveLog/hive/5ee0c227b3ae622280b1eef8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"v1",
+								"beeHiveLog",
+								"hive",
+								"5ee0c227b3ae622280b1eef8"
 							]
 						}
 					},

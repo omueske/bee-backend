@@ -1,0 +1,30 @@
+ const logId = req.params.logId;
+
+  for (let i = 0; i < req.body; i++) {
+    var obj = JSON.parse(req.body)[i];
+  }
+
+  // ---------------------------------------------------------------------
+  // Adding prefix to JSON-Object Keys
+  var rename = function (obj, prefix) {
+    if (typeof obj !== "object" || !obj) {
+      return false; // check the obj argument somehow
+    }
+
+    var keys = Object.keys(obj),
+      keysLen = keys.length,
+      prefix = prefix || "";
+
+    for (var i = 0; i < keysLen; i++) {
+      obj[prefix + keys[i]] = obj[keys[i]];
+      if (typeof obj[keys[i]] === "object") {
+        rename(obj[prefix + keys[i]], prefix);
+      }
+      delete obj[keys[i]];
+    }
+
+    return obj;
+  };
+
+  //---------------------------------------------------------------
+  console.log(logId);

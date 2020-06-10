@@ -8,11 +8,17 @@ module.exports = app => {
     // Create a new HiveLog
     router.post("/:hiveId", beeHiveLogs.create);
   
-    //Retrieve all HiveLogs from an Hive
-    router.get("/:id", beeHiveLogs.findAll);
+    //Retrieve all HiveLogs
+    router.get("/", beeHiveLogs.findAll);
+
+    // Retrieve specific HiveLog
+    router.get("/:id", beeHiveLogs.findOne);
+
+    // Retrieve alle Hivelogs from specific Hive
+    router.get("/hive/:hiveId", beeHiveLogs.findAllFromHive)
   
     // Update a HiveLog with id
-    router.put("/:logId", beeHiveLogs.update);
+    router.put("/:id", beeHiveLogs.update);
   
     // Delete a HiveLogs with id
     router.delete("/:id", beeHiveLogs.delete);

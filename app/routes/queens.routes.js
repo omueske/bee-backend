@@ -20,8 +20,8 @@ module.exports = app => {
     // Delete a Queens with id
     router.delete("/:id", queens.delete);
   
-    // Create a new Queen
-    router.delete("/", queens.deleteAll);
+    // Delete all Queens
+    // router.delete("/", queens.deleteAll);
   
     app.use('/api/v1/queens', router);
     expressListRoutes({ prefix: apiPrefix }, '\nQueens API:', router );
