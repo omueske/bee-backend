@@ -4,7 +4,7 @@
       mongoose.Schema(
         {
           date: Date,
-          weather: String,
+          weather: Array,
           findings: Array,
           frames: Array,
           food: Array,
