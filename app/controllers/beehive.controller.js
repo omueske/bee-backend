@@ -5,6 +5,7 @@ const BeeHive = db.beehives
 exports.create = (req, res) => {
   if (!req.body.buildType) {
     res.status(400).send({ message: "buildType cannot be empty" });
+    console.log(Date.now + " Error HTTP-400 | HIVE GET /" )
   }
 
   // Create an new BeeHive
@@ -24,6 +25,7 @@ exports.create = (req, res) => {
     .save(beeHive)
     .then((data) => {
       res.send(data);
+      console.log(Date.now + " Error HTTP-200 | HIVE GET /" )
     })
     .catch((err) => {
       res.status(500).send({
