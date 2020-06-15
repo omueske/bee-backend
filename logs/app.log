@@ -629,3 +629,136 @@
 {"message":"yearColor called. Year: 2020","level":"info"}
 {"message":"Calculated Color: blue","level":"info"}
 {"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"yearColor called. Year: 2020","level":"info"}
+{"message":"Calculated Color: blue","level":"info"}
+{"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"yearColor called. Year: 2020","level":"info"}
+{"message":"Calculated Color: blue","level":"info"}
+{"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"yearColor called. Year: 2020","level":"info"}
+{"message":"Calculated Color: blue","level":"info"}
+{"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"yearColor called. Year: 2020","level":"info"}
+{"message":"Calculated Color: blue","level":"info"}
+{"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"yearColor called. Year: 2020","level":"info"}
+{"message":"Calculated Color: blue","level":"info"}
+{"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"yearColor called. Year: 2020","level":"info"}
+{"message":"Calculated Color: blue","level":"info"}
+{"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"yearColor called. Year: 2020","level":"info"}
+{"message":"Calculated Color: blue","level":"info"}
+{"message":"HTTP-200: Year Color calculated","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
