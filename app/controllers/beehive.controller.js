@@ -45,6 +45,7 @@ exports.findAll = (req, res) => {
   logger.info("BeeHive | findAll called");
   BeeHive.find()
     .then((data) => {
+      logger.info("HTTP-200 | All Hives found");
       res.send(data);
     })
     .catch((err) => {
@@ -65,9 +66,13 @@ exports.findOne = (req, res) => {
 
   BeeHive.findById(id)
     .then((data) => {
-      if (!data)
+      if (!data) {
         res.status(404).send({ message: "Not found BeeHive with id " + id });
-      else res.send(data);
+        logger.error("HTTP-404 |  BeeHive not found " + id);
+      } else {
+        res.send(data);
+        logger.info("HTTP-200 | Found BeeHive " + id);
+      }
     })
     .catch((err) => {
       logger.error("HTTP-500: Error retrieving BeeHive with id=" + id);
@@ -81,6 +86,7 @@ exports.findOne = (req, res) => {
 exports.update = (req, res) => {
   logger.info("BeeHive | Update called");
   if (!req.body) {
+    logger.error("HTTP-400 |Data to update can not be empty!");
     return res.status(400).send({
       message: "Data to update can not be empty!",
     });
@@ -90,10 +96,16 @@ exports.update = (req, res) => {
   BeeHive.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then((data) => {
       if (!data) {
+        logger.error(
+          `HTTP-404 |Cannot update BeeHive with id=${id}. Maybe BeeHive was not found!`
+        );
         res.status(404).send({
           message: `Cannot update BeeHive with id=${id}. Maybe BeeHive was not found!`,
         });
-      } else res.send({ message: "BeeHive was updated successfully.", data });
+      } else {
+        res.send({ message: "BeeHive was updated successfully.", data });
+        logger.info("HTTP-200 | BeeHive was updated successfully. " + id);
+      }
     })
     .catch((err) => {
       logger.error("HTTP-500: Error updating BeeHive with id=" + id);
@@ -137,11 +149,17 @@ exports.deleteAll = (req, res) => {
   logger.info("BeeHive | DeleteAll called");
   BeeHive.deleteMany({})
     .then((data) => {
+      logger.info(
+        `HTTP-200: ${data.deletedCount} BeeHives were deleted successfully!`
+      );
       res.send({
         message: `${data.deletedCount} BeeHives were deleted successfully!`,
       });
     })
     .catch((err) => {
+      logger.error(
+        "HTTP-500: Some error occurred while removing all BeeHives."
+      );
       res.status(500).send({
         message:
           err.message || "Some error occurred while removing all BeeHives.",
