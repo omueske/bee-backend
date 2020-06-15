@@ -10,12 +10,14 @@
   "author": "Oliver Müske",
   "license": "ISC",
   "dependencies": {
+    "app-root-path": "^3.0.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-list-routes": "^0.1.4",
     "mongoose": "^5.9.18",
-    "uuid": "^8.1.0"
+    "uuid": "^8.1.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
