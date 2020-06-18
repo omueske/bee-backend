@@ -6,19 +6,19 @@ const BeeHiveLog = db.beehiveLogs;
 exports.create = (req, res) => {
   if (!req.body.date) {
     res.status(400).send({
-      //success: 'false',
+      success: "false",
       message: "date cannot be empty",
     });
   }
 
   if (!req.params.hiveId) {
     res.status(400).send({
-      //success: 'false',
+      success: "false",
       message: "hiveId cannot be empty",
     });
   }
-  
-  const beeHiveLog = new BeeHiveLog ({
+
+  const beeHiveLog = new BeeHiveLog({
     logId: uuidv4(),
     date: req.body.date,
     findings: req.body.findings,
@@ -26,7 +26,8 @@ exports.create = (req, res) => {
     food: req.body.food,
     meekness: req.body.meekness,
     comment: req.body.comment,
-    hiveId: req.body.hiveId
+    hiveId: req.body.hiveId,
+    queen: req.body.queen,
   });
 
   beeHiveLog
@@ -61,14 +62,18 @@ exports.findAllFromHive = (req, res) => {
       message: "hiveId cannot be empty",
     });
   }
-  BeeHiveLog.find({ hiveId: req.params.hiveId})
+  BeeHiveLog.find({ hiveId: req.params.hiveId })
     .then((data) => {
       res.send(data);
     })
     .catch((err) => {
       res.status(500).send({
         message:
-          err.message || "Some error occured while retrieving all BeeHivesLogs from HiveID: " + req-params.hiveId + "."
+          err.message ||
+          "Some error occured while retrieving all BeeHivesLogs from HiveID: " +
+            req -
+            params.hiveId +
+            ".",
       });
     });
 };
@@ -100,7 +105,7 @@ exports.findOne = (req, res) => {
 exports.update = (req, res) => {
   if (!req.body) {
     return res.status(400).send({
-      message: "Data to update can not be empty!"
+      message: "Data to update can not be empty!",
     });
   }
 
@@ -132,7 +137,8 @@ exports.delete = (req, res) => {
         });
       } else {
         res.send({
-          message: "BeeHive was deleted successfully!", data
+          message: "BeeHive was deleted successfully!",
+          data,
         });
       }
     })

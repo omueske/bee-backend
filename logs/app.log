@@ -2339,3 +2339,281 @@
 {"message":"Create Route for Location API","level":"info"}
 {"level":"info"}
 {"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edbba4895a7c539845fe781","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edbba4a95a7c539845fe782","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edbba4a95a7c539845fe783","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edd08725e10150c7064e0c8","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edbba4895a7c539845fe781","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edbba4a95a7c539845fe782","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edbba4a95a7c539845fe783","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edd08725e10150c7064e0c8","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5ee7c314d5891f36e4d88bde","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-400 | HIVE GET /","level":"error"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"HTTP-200 | Queen created","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
