@@ -3,10 +3,11 @@ module.exports = (mongoose) => {
     "BeeHive",
     mongoose.Schema(
       {
-        location: String,
+        number: Number,
         name: String,
         buildType: String,
         sections: Array,
+        hiveLog: Array,
         todos: Array,
         comment: String,
         status: String,

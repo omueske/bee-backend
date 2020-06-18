@@ -1038,3 +1038,1304 @@
 {"message":"Create Route for Location API","level":"info"}
 {"level":"info"}
 {"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7e9f3c1138688ee84b","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"BeeHive | findOne called","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e7f9f3c1138688ee84c","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e809f3c1138688ee84d","level":"info"}
+{"message":"HTTP-200 | Found BeeHive 5edb9e819f3c1138688ee84e","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-500: Some error Occured while creating the BeeHive ","level":"error"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-500: Some error Occured while creating the BeeHive ","level":"error"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"HTTP-200 | HIVE GET /","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | linkBeeHive","level":"info"}
+{"message":"HTTP-200: Hive Linked to Location successfully","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Location | findAll called","level":"info"}
+{"message":"Searching Location","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"BeeHive | findAll called","level":"info"}
+{"message":"HTTP-200 | All Hives found","level":"info"}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Unexpected identifier\nC:\\Users\\Oliver\\dev\\bee-backend\\app\\controllers\\beehive.controller.js:21\n      comment: req.body.comment,\n      ^^^^^^^\n\nSyntaxError: Unexpected identifier\n    at wrapSafe (internal/modules/cjs/loader.js:1054:16)\n    at Module._compile (internal/modules/cjs/loader.js:1102:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at module.exports (C:\\Users\\Oliver\\dev\\bee-backend\\app\\routes\\beehives.routes.js:3:20)\n    at Object.<anonymous> (C:\\Users\\Oliver\\dev\\bee-backend\\server.js:33:40)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at internal/main/run_main_module.js:17:47","stack":"C:\\Users\\Oliver\\dev\\bee-backend\\app\\controllers\\beehive.controller.js:21\n      comment: req.body.comment,\n      ^^^^^^^\n\nSyntaxError: Unexpected identifier\n    at wrapSafe (internal/modules/cjs/loader.js:1054:16)\n    at Module._compile (internal/modules/cjs/loader.js:1102:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Module.require (internal/modules/cjs/loader.js:1026:19)\n    at require (internal/modules/cjs/helpers.js:72:18)\n    at module.exports (C:\\Users\\Oliver\\dev\\bee-backend\\app\\routes\\beehives.routes.js:3:20)\n    at Object.<anonymous> (C:\\Users\\Oliver\\dev\\bee-backend\\server.js:33:40)\n    at Module._compile (internal/modules/cjs/loader.js:1138:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)\n    at Module.load (internal/modules/cjs/loader.js:986:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:879:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Thu Jun 18 2020 11:28:42 GMT+0200 (GMT+02:00)","process":{"pid":15140,"uid":null,"gid":null,"cwd":"C:\\Users\\Oliver\\dev\\bee-backend","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v12.17.0","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\Oliver\\dev\\bee-backend\\server.js"],"memoryUsage":{"rss":61964288,"heapTotal":33525760,"heapUsed":22998040,"external":20841408,"arrayBuffers":19364543}},"os":{"loadavg":[0,0,0],"uptime":592955},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":1054,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1102,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":1026,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":72,"method":null,"native":false},{"column":20,"file":"C:\\Users\\Oliver\\dev\\bee-backend\\app\\routes\\beehives.routes.js","function":"module.exports","line":3,"method":"exports","native":false},{"column":40,"file":"C:\\Users\\Oliver\\dev\\bee-backend\\server.js","function":null,"line":33,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1138,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1158,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":986,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":879,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":71,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+{"message":"Setting CORS-Options to '*'","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/json","level":"info"}
+{"message":"Setting parsing for Content-type applicaion/x-www-form-urlencoded","level":"info"}
+{"message":"Initializing MongoDB-Connect","level":"info"}
+{"message":"Setting up Express-Routes","level":"info"}
+{"message":"Create Route for BeeHive API","level":"info"}
+{"level":"info"}
+{"message":"BeeHive | Create called","level":"info"}
+{"message":"Create Route for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for BeeHive-Logs API","level":"info"}
+{"level":"info"}
+{"message":"Create YearColor for Queen API","level":"info"}
+{"level":"info"}
+{"message":"Create Route for Location API","level":"info"}
+{"level":"info"}
+{"message":"Server is running on port 8080.","level":"info"}

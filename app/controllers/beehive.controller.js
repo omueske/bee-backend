@@ -11,11 +11,13 @@ exports.create = (req, res) => {
   } else {
     // Create an new BeeHive
     const beeHive = new BeeHive({
+      number: req.body.number,
       name: req.body.name,
       buildType: req.body.buildType,
       sections: req.body.sections,
       hiveLog: req.body.hivelog,
       todos: req.body.todos,
+      status: req.body.status,
       comment: req.body.comment,
     });
 
