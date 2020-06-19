@@ -1,6 +1,6 @@
 const db = require("../models");
 const Location = db.locations;
-const logger = require("../config/winston");
+const logger = require("../config/log4js");
 
 // Create and Save a new Location
 exports.create = (req, res) => {

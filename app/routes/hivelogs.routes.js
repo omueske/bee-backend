@@ -2,7 +2,7 @@ var expressListRoutes = require("express-list-routes");
 module.exports = (app) => {
   const apiPrefix = "/api/v1/beeHiveLog";
   const beeHiveLogs = require("../controllers/beehivelog.controller.js");
-  const logger = require("../config/winston");
+  const logger = require("../config/log4js");
 
   var router = require("express").Router();
 

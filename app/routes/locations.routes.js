@@ -2,7 +2,7 @@ var expressListRoutes = require("express-list-routes");
 module.exports = (app) => {
   const locations = require("../controllers/location.controller.js");
   const apiPrefix = "/api/v1/locations";
-  const logger = require("../config/winston");
+  const logger = require("../config/log4js");
   var router = require("express").Router();
 
   logger.info("Create Route for Location API");

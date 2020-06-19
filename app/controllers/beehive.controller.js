@@ -1,6 +1,6 @@
 const db = require("../models");
 const BeeHive = db.beehives;
-const logger = require("../config/winston");
+const logger = require("../config/log4js");
 
 // Create and Save a new BeeHive
 exports.create = (req, res) => {

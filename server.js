@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 const app = express();
-const logger = require("./app/config/winston");
+const logger = require("./app/config/log4js");
 
 //
 // Logging

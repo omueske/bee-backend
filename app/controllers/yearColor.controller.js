@@ -1,5 +1,5 @@
 exports.showColor = (req, res) => {
-  const logger = require("../config/winston");
+  const logger = require("../config/log4js");
 
   if (!req.params.year) {
     logger.error("HTTP-400: 'year' cannot be empty");

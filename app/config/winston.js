@@ -26,7 +26,7 @@ var options = {
 let logger = winston.createLogger({
   transports: [
     new winston.transports.Console(options.console),
-    new winston.transports.File(options.file),
+    // new winston.transports.File(options.file),
   ],
   exitOnError: false, // do not exit on handled exceptions
 });

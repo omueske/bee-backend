@@ -15,6 +15,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-list-routes": "^0.1.4",
+    "log4js": "^6.3.0",
     "mongoose": "^5.9.18",
     "uuid": "^8.1.0",
     "winston": "^3.2.1"

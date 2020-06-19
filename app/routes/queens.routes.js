@@ -2,7 +2,7 @@ var expressListRoutes = require("express-list-routes");
 module.exports = (app) => {
   const queens = require("../controllers/queen.controller.js");
   const apiPrefix = "/api/v1/queens";
-  const logger = require("../config/winston");
+  const logger = require("../config/log4js");
 
   var router = require("express").Router();
 

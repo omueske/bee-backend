@@ -1,6 +1,6 @@
 const db = require("../models");
 const Queen = db.queens;
-const logger = require("../config/winston");
+const logger = require("../config/log4js");
 
 // Create and Save a new Queen
 logger.info("BeeHive | Create called");

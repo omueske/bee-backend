@@ -1,7 +1,7 @@
 var expressListRoutes = require("express-list-routes");
 module.exports = (app) => {
   const yearColor = require("../controllers/yearColor.controller.js");
-  const logger = require("../config/winston");
+  const logger = require("../config/log4js");
   const apiPrefix = "/api/v1/yearColor";
 
   logger.info("Create YearColor for Queen API");
