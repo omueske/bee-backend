@@ -5,9 +5,10 @@ const logger = require("../config/log4js");
 // Create and Save a new BeeHive
 exports.create = (req, res) => {
   logger.info("BeeHive | Create called");
+  logger.debug(req.body);
   if (!req.body.buildType) {
     res.status(400).send({ message: "buildType cannot be empty" });
-    logger.error("HTTP-400 | HIVE GET /");
+    logger.error("HTTP-400 | HIVE POST /");
   } else {
     // Create an new BeeHive
     const beeHive = new BeeHive({
@@ -28,11 +29,11 @@ exports.create = (req, res) => {
       .save(beeHive)
       .then((data) => {
         res.send(data);
-        logger.info("HTTP-200 | HIVE GET /");
+        logger.info("HTTP-200 | HIVE POST /");
       })
       .catch((err) => {
         logger.error(
-          "HTTP-500: Some error Occured while creating the BeeHive "
+          "HTTP-500: Some error Occured while creating the BeeHive \n" + err
         );
         res.status(500).send({
           message:
