@@ -23,6 +23,7 @@ module.exports = (app) => {
 
   // Link Hive to Location
   router.link("/:locId/:hiveId", locations.linkBeeHive);
+  router.post("/:locId/:hiveId", locations.linkBeeHive);
 
   // Unlink Hive from Location
   router.unlink("/:hiveId", locations.unLinkBeeHive);
