@@ -216,7 +216,6 @@ exports.unLinkBeeHive = (req, res) => {
         );
       } else {
         logger.info("HTTP-200: Hive unLinked from Location successfully\n");
-        console.table(res);
         return res.status(200).json({
           status: "ok",
           result: "Hive unLinked from Location successfully",
