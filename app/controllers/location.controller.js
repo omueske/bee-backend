@@ -84,7 +84,7 @@ exports.findOne = (req, res) => {
     });
 };
 
-// Update a BeeHive by the id in the request
+// Update a Location by the id in the request
 exports.update = (req, res) => {
   logger.info("Location | update called");
   if (!req.body) {
@@ -116,7 +116,7 @@ exports.update = (req, res) => {
   }
 };
 
-// Delete a BeeHive with the specified id in the request
+// Delete a Location with the specified id in the request
 exports.delete = (req, res) => {
   logger.info("Location | delete called");
   const id = req.params.id;
@@ -138,7 +138,7 @@ exports.delete = (req, res) => {
     .catch((err) => {
       logger.error("HTTP-500: Could not delete BeeHive with id=" + id);
       res.status(500).send({
-        message: "Could not delete BeeHive with id=" + id,
+        message: "Could not delete Location with id=" + id,
       });
     });
 };
@@ -168,14 +168,11 @@ exports.linkBeeHive = (req, res) => {
   };
   logger.debug("Linking " + linkElements);
 
-  // console.log("HiveId: " + req.params.hiveId);
-  // console.log("Location: " + req.params.locId);
-  // console.table(linkElements);
   logger.debug("findOneAndUpdate");
   Location.findOneAndUpdate(
     { _id: req.params.locId },
     { $push: { hives: linkElements } },
-    { new: true },
+    { new: true, useFindAndModify: false },
     function (err, update) {
       if (err) {
         logger.error("HTTP-500: Server error while Linking");
@@ -205,8 +202,8 @@ exports.unLinkBeeHive = (req, res) => {
   logger.debug("HiveId: " + req.params.hiveId);
   logger.debug("findOneAndUpdate");
   Location.findOneAndUpdate(
-    { "hives._id": req.params.hiveId },
-    { $pull: { hives: { _id: req.params.hiveId } } },
+    { "hives.hiveId": req.params.hiveId },
+    { $pull: { hives: { hiveId: req.params.hiveId } } },
     { new: true },
     function (err, update) {
       if (err) {
@@ -218,7 +215,8 @@ exports.unLinkBeeHive = (req, res) => {
           logger.error("HTTP-500: Server error while unLinking")
         );
       } else {
-        logger.info("HTTP-200: Hive Linked to Location successfully");
+        logger.info("HTTP-200: Hive unLinked from Location successfully\n");
+        console.table(res);
         return res.status(200).json({
           status: "ok",
           result: "Hive unLinked from Location successfully",

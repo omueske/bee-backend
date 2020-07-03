@@ -27,6 +27,7 @@ module.exports = (app) => {
 
   // Unlink Hive from Location
   router.unlink("/:hiveId", locations.unLinkBeeHive);
+  router.delete("/unlink/:hiveId", locations.unLinkBeeHive);
 
   app.use("/api/v1/locations", router);
 
