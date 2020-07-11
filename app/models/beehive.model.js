@@ -1,12 +1,12 @@
 module.exports = (mongoose) => {
   const queenLinkSchema = mongoose.Schema({
     href: String,
-    hiveId: String,
+    queenId: String,
     updatetAt: { type: Date, default: Date.now },
   });
   const hiveLogLinkSchema = mongoose.Schema({
     href: String,
-    hiveId: String,
+    hiveLogId: String,
     updatetAt: { type: Date, default: Date.now },
   });
 

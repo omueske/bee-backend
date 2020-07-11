@@ -118,6 +118,55 @@ exports.update = (req, res) => {
     });
 };
 
+exports.linkQueen = (req, res) => {
+  logger.info("BeeHive | linkQueenBeeHive");
+  if (!req.params.hiveId) {
+    res
+      .status(400)
+      .send(
+        { message: "hiveId cannot be empty" },
+        logger.error("HTTP-400: hiveId cannot be empty")
+      );
+  }
+  if (!req.params.queenId) {
+    res
+      .status(400)
+      .send(
+        { message: "queenId cannot be empty" },
+        logger.error("HTTP-400: queenId cannot be empty")
+      );
+  }
+
+  const linkElements = {
+    href: "/api/v1/queens/" + req.params.queenId,
+    queenId: req.params.queenId,
+  };
+  logger.debug("Linking " + linkElements);
+
+  logger.debug("findOneAndUpdate");
+  BeeHive.findOneAndUpdate(
+    { _id: req.params.hiveId },
+    { $push: { queen: linkElements } },
+    { new: true, useFindAndModify: false },
+    function (err, update) {
+      if (err) {
+        logger.error("HTTP-500: Server error while Linking");
+        return res.status(500).json({
+          status: "error",
+          result: "server error",
+        });
+      } else {
+        logger.info("HTTP-200: Queen Linked to BeeHive successfully");
+        return res.status(200).json({
+          status: "ok",
+          result: "Queen Linked to BeeHive successfully",
+          linkElements,
+        });
+      }
+    }
+  );
+};
+
 // Delete a BeeHive with the specified id in the request
 exports.delete = (req, res) => {
   logger.info("BeeHive | Delete called");
@@ -168,4 +217,40 @@ exports.deleteAll = (req, res) => {
           err.message || "Some error occurred while removing all BeeHives.",
       });
     });
+};
+
+// unLink Queen to Beehives
+exports.unLinkQueen = (req, res) => {
+  logger.info("BeeHive | Unlink Queen called");
+
+  if (!req.params.queenId) {
+    logger.error("HTTP-400: queenId cannot be empty");
+    res.status(400).send({ message: "queenId cannot be empty" });
+  }
+  logger.debug("QueenId: " + req.params.queenId);
+  logger.debug("findOneAndUpdate");
+  BeeHive.findOneAndUpdate(
+    { "queen.queenId": req.params.queenId },
+    { $pull: { queen: { queenId: req.params.queenId } } },
+    { new: true },
+    function (err, update) {
+      if (err) {
+        return res.status(500).json(
+          {
+            status: "error",
+            result: "server error",
+          },
+          logger.error(
+            "HTTP-500: Server error while unLinking Queen from BeeHive"
+          )
+        );
+      } else {
+        logger.info("HTTP-200: Queen unLinked from Hive successfully\n");
+        return res.status(200).json({
+          status: "ok",
+          result: "Queen unLinked from Hive successfully: " + res,
+        });
+      }
+    }
+  );
 };
