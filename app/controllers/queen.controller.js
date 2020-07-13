@@ -78,7 +78,7 @@ exports.update = (req, res) => {
   }
 
   const id = req.params.id;
-  Queen.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
+  Queen.findByIdAndUpdate(id, { $set: req.body }, { useFindAndModify: false })
     .then((data) => {
       if (!data) {
         logger.error(
@@ -89,7 +89,7 @@ exports.update = (req, res) => {
         });
       } else {
         res.send({ message: "Queen was updated successfully." });
-        logger.info("HTTP-200 | Queen " + id + "updated");
+        logger.info("HTTP-200 | Queen " + id + " updated");
       }
     })
     .catch((err) => {
