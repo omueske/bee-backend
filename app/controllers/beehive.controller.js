@@ -254,3 +254,71 @@ exports.unLinkQueen = (req, res) => {
     }
   );
 };
+// move Queen to Beehive
+exports.moveQueen = (req, res) => {
+  logger.info("BeeHive | Move Queen called");
+
+  if (!req.params.queenId) {
+    logger.error("HTTP-400: queenId cannot be empty");
+    res.status(400).send({ message: "queenId cannot be empty" });
+  }
+  if (!req.params.hiveId) {
+    logger.error("HTTP-400: hiveId cannot be empty");
+    res.status(400).send({ message: "hiveId cannot be empty" });
+  }
+  logger.debug("QueenId: " + req.params.queenId);
+  logger.debug("HiveId: " + req.params.hiveId);
+  logger.debug("findOneAndUpdate");
+
+  // Unlink Queen from old Hive
+  BeeHive.findOneAndUpdate(
+    { "queen.queenId": req.params.queenId },
+    { $pull: { queen: { queenId: req.params.queenId } } },
+    { new: true },
+
+    function (err, update) {
+      if (err) {
+        return res.status(500).json(
+          {
+            status: "error",
+            result: "server error",
+          },
+          logger.error(
+            "HTTP-500: [moveQueen] Server error while unLinking Queen " +
+              req.params.queenId +
+              "from old BeeHive"
+          )
+        );
+      }
+    }
+  );
+  BeeHive.updateOne(
+    { _id: req.params.hiveId },
+    { $push: { queen: { queenId: req.params.queenId } } },
+    { new: true },
+
+    function (err, update) {
+      if (err) {
+        return res.status(500).json(
+          {
+            status: "error",
+            result: "server error",
+          },
+          logger.error(
+            "HTTP-500: [moveQueen] Server error while linking Queen to new BeeHive"
+          )
+        );
+      } else {
+        logger.info("HTTP-200: Queen moved to Hive successfully\n");
+        return res.status(200).json({
+          status: "ok",
+          result:
+            "Queen " +
+            req.params.queenId +
+            "moved to Hive successfully: " +
+            res,
+        });
+      }
+    }
+  );
+};

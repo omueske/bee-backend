@@ -31,6 +31,9 @@ module.exports = (app) => {
   // Delete all Hives
   // router.delete("/", beehives.deleteAll);
 
+  // Move Queen to another Hives
+  router.patch("/queen/:queenId/:hiveId", beehives.moveQueen);
+
   app.use("/api/v1/hives", router);
 
   logger.info(expressListRoutes({ prefix: apiPrefix }, "\nHives API:", router));
