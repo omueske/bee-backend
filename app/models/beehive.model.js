@@ -1,10 +1,13 @@
 module.exports = (mongoose) => {
-  const queenLinkSchema = mongoose.Schema({
-    href: String,
-    queenId: String,
-    updatetAt: { type: Date, default: Date.now },
+  const queenSchema = mongoose.Schema({
+    number: Number,
+    hatchYear: Number,
+    pedigree: String,
+    race: String,
+    comment: String,
+    updatedAt: { type: Date, default: Date.now },
   });
-  const hiveLogLinkSchema = mongoose.Schema({
+  const logSchema = mongoose.Schema({
     href: String,
     hiveLogId: String,
     updatetAt: { type: Date, default: Date.now },
@@ -17,9 +20,9 @@ module.exports = (mongoose) => {
         number: Number,
         name: String,
         buildType: String,
-        queen: [queenLinkSchema],
+        queen: [queenSchema],
         sections: Array,
-        hiveLog: [hiveLogLinkSchema],
+        hiveLog: [logSchema],
         todos: Array,
         comment: String,
         status: String,

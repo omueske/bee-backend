@@ -16,6 +16,7 @@ exports.create = (req, res) => {
       name: req.body.name,
       buildType: req.body.buildType,
       sections: req.body.sections,
+      queen: req.body.queen,
       hiveLog: req.body.hivelog,
       todos: req.body.todos,
       status: req.body.status,
@@ -88,6 +89,7 @@ exports.findOne = (req, res) => {
 // Update a BeeHive by the id in the request
 exports.update = (req, res) => {
   logger.info("BeeHive | Update called");
+  console.table(req);
   if (!req.body) {
     logger.error("HTTP-400 |Data to update can not be empty!");
     return res.status(400).send({
@@ -118,8 +120,9 @@ exports.update = (req, res) => {
     });
 };
 
-exports.linkQueen = (req, res) => {
+exports.createQueen = (req, res) => {
   logger.info("BeeHive | linkQueenBeeHive");
+  logger.debug(req.params);
   if (!req.params.hiveId) {
     res
       .status(400)
@@ -128,25 +131,19 @@ exports.linkQueen = (req, res) => {
         logger.error("HTTP-400: hiveId cannot be empty")
       );
   }
-  if (!req.params.queenId) {
+  if (!req.body.queen) {
     res
       .status(400)
       .send(
-        { message: "queenId cannot be empty" },
+        { message: "queen cannot be empty" },
         logger.error("HTTP-400: queenId cannot be empty")
       );
   }
 
-  const linkElements = {
-    href: "/api/v1/queens/" + req.params.queenId,
-    queenId: req.params.queenId,
-  };
-  logger.debug("Linking " + linkElements);
-
   logger.debug("findOneAndUpdate");
   BeeHive.findOneAndUpdate(
     { _id: req.params.hiveId },
-    { $push: { queen: linkElements } },
+    { $push: { queen: req.body.queen } },
     { new: true, useFindAndModify: false },
     function (err, update) {
       if (err) {
@@ -156,11 +153,12 @@ exports.linkQueen = (req, res) => {
           result: "server error",
         });
       } else {
-        logger.info("HTTP-200: Queen Linked to BeeHive successfully");
+        logger.info("HTTP-200: Queen added to BeeHive successfully");
         return res.status(200).json({
           status: "ok",
-          result: "Queen Linked to BeeHive successfully",
-          linkElements,
+          result: "Queen added to BeeHive successfully",
+          hive: req.params.hiveId,
+          queen: req.body.queen,
         });
       }
     }

@@ -19,8 +19,8 @@ module.exports = (app) => {
   // Update a BeeHive with id
   router.put("/:id", beehives.update);
 
-  // Link a Queen to Hives
-  router.put("/queen/:hiveId/:queenId", beehives.linkQueen);
+  // Add a Queen to Hives
+  router.put("/queen/:hiveId", beehives.createQueen);
 
   // Delete a BeeHive with id
   router.delete("/:id", beehives.delete);
