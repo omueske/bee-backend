@@ -89,11 +89,18 @@ exports.findOne = (req, res) => {
 // Update a BeeHive by the id in the request
 exports.update = (req, res) => {
   logger.info("BeeHive | Update called");
-  console.table(req);
+  console.table(req.body);
   if (!req.body) {
     logger.error("HTTP-400 |Data to update can not be empty!");
     return res.status(400).send({
       message: "Data to update can not be empty!",
+    });
+  }
+
+  if (!req.params.id) {
+    logger.error("HTTP-400 |hiveId can not be empty!");
+    return res.status(400).send({
+      message: "hiveId can not be empty!",
     });
   }
 
@@ -108,6 +115,7 @@ exports.update = (req, res) => {
           message: `Cannot update BeeHive with id=${id}. Maybe BeeHive was not found!`,
         });
       } else {
+        console.table(data);
         res.send({ message: "BeeHive was updated successfully.", data });
         logger.info("HTTP-200 | BeeHive was updated successfully. " + id);
       }
