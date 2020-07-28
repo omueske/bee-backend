@@ -328,3 +328,20 @@ exports.moveQueen = (req, res) => {
     }
   );
 };
+
+// // Retrieve all BeeHives from the database.
+// exports.findAllQueens = (req, res) => {
+//   logger.info("BeeHive | findAllQueens called");
+//   BeeHive.find()
+//     .then((data) => {
+//       logger.info("HTTP-200 | All Queens found");
+//       res.send({ hiveId: data._id, data.queen });
+//     })
+//     .catch((err) => {
+//       logger.error("HTTP-500: Some error Occured while retrieving all Queens ");
+//       res.status(500).send({
+//         message:
+//           err.message || "Some error occured while retrieving all Queens",
+//       });
+//     });
+// };

@@ -13,6 +13,9 @@ module.exports = (app) => {
   // Retrieve all BeeHives
   router.get("/", beehives.findAll);
 
+  // // Retrieve all Queens
+  // router.get("/queen", beehives.findAllQueens);
+
   // Retrieve a single BeeHive with id
   router.get("/:id", beehives.findOne);
 
