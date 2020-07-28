@@ -161,12 +161,19 @@ exports.createQueen = (req, res) => {
           result: "server error",
         });
       } else {
+        console.log(update);
+        const queen = update.queen[update.queen.length - 1];
+        queen.hive = {};
+        queen.hive._id = update._id;
+        queen.name = update.name;
+
         logger.info("HTTP-200: Queen added to BeeHive successfully");
         return res.status(200).json({
           status: "ok",
           result: "Queen added to BeeHive successfully",
           hive: req.params.hiveId,
-          queen: req.body.queen,
+          //queen: req.body.queen,
+          queen: queen,
         });
       }
     }
@@ -235,9 +242,11 @@ exports.unLinkQueen = (req, res) => {
   }
   logger.debug("QueenId: " + req.params.queenId);
   logger.debug("findOneAndUpdate");
+
+  const id = req.params.queenId;
   BeeHive.findOneAndUpdate(
-    { "queen.queenId": req.params.queenId },
-    { $pull: { queen: { queenId: req.params.queenId } } },
+    { "queen._id": req.params.queenId },
+    { $pull: { queen: { _id: req.params.queenId } } },
     { new: true },
     function (err, update) {
       if (err) {
@@ -247,14 +256,14 @@ exports.unLinkQueen = (req, res) => {
             result: "server error",
           },
           logger.error(
-            "HTTP-500: Server error while unLinking Queen from BeeHive"
+            "HTTP-500: Server error while deleting Queen from BeeHive"
           )
         );
       } else {
-        logger.info("HTTP-200: Queen unLinked from Hive successfully\n");
+        logger.info("HTTP-200: Queen deleted from Hive successfully\n");
         return res.status(200).json({
           status: "ok",
-          result: "Queen unLinked from Hive successfully: " + res,
+          result: "Queen deleted from Hive successfully: " + res,
         });
       }
     }
