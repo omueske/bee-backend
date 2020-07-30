@@ -270,7 +270,7 @@ exports.unLinkQueen = (req, res) => {
   );
 };
 // move Queen to Beehive
-exports.moveQueen = (req, res) => {
+exports.moveQueen = async (req, res) => {
   logger.info("BeeHive | Move Queen called");
 
   if (!req.params.queenId) {
@@ -281,14 +281,50 @@ exports.moveQueen = (req, res) => {
     logger.error("HTTP-400: hiveId cannot be empty");
     res.status(400).send({ message: "hiveId cannot be empty" });
   }
+  if (!req.body) {
+    logger.error("HTTP-400: queen cannot be empty");
+    res.status(400).send({ message: "queen cannot be empty" });
+  }
   logger.debug("QueenId: " + req.params.queenId);
   logger.debug("HiveId: " + req.params.hiveId);
   logger.debug("findOneAndUpdate");
 
+  // Find Queen and save it
+  // const findQueen = async function (params) {
+  //   try {
+  //     return await BeeHive.findOne(params);
+  //   } catch (err) {
+  //     console.log(err);
+  //   }
+  // };
+  // const blubb = findQueen({ _id: req.params.queenId });
+  // console.table(blubb);
+  async function getQueen(qId) {
+    console.log(qId);
+    await BeeHive.findOne({ "queen._id": qId })
+      .then(function (queen) {
+        // console.table(queen);
+        return queen[0];
+      })
+      .catch((err) => {
+        logger.error(
+          "HTTP-500: Some error Occured while finding the Queen \n" + err
+        );
+        res.status(500).send({
+          message:
+            err.message || "Some error Occured while finding the BeeHive",
+        });
+      });
+  }
+
+  let queen = getQueen(req.params.queenId);
+  console.table(queen);
   // Unlink Queen from old Hive
+  // console.table(req.params);
+  // console.table(req.body);
   BeeHive.findOneAndUpdate(
-    { "queen.queenId": req.params.queenId },
-    { $pull: { queen: { queenId: req.params.queenId } } },
+    { "queen._id": req.params.queenId },
+    { $pull: { queen: { _id: req.params.queenId } } },
     { new: true },
 
     function (err, update) {
@@ -309,7 +345,7 @@ exports.moveQueen = (req, res) => {
   );
   BeeHive.updateOne(
     { _id: req.params.hiveId },
-    { $push: { queen: { queenId: req.params.queenId } } },
+    { $push: { queen: req.body } },
     { new: true },
 
     function (err, update) {
@@ -325,6 +361,7 @@ exports.moveQueen = (req, res) => {
         );
       } else {
         logger.info("HTTP-200: Queen moved to Hive successfully\n");
+        console.log(update);
         return res.status(200).json({
           status: "ok",
           result:
